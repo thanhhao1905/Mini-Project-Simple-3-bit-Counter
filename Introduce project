@@ -1,0 +1,18 @@
+** Mini-Project: Simple 3-bit Counter
+This project presents a fundamental design for a 3-bit counter and a comprehensive testbench to verify its operation using the Hardware Description Language Verilog. Counters are foundational architectural blocks in digital systems,
+widely employed for tracking clock pulses and managing event sequences.
+
+** Key Features
+Up-Counter: Increments its value by one on each positive edge of the clock signal.
+
+Resettable: Supports an active-low reset signal (rest_n), allowing the counter to be asynchronously set back to a zero state.
+
+Robust Testbench: Includes a dedicated test environment to verify the design's correctness, display operational status, and report any discrepancies.
+
+Automated Checking and Monitoring: Utilizes Verilog system tasks ($monitor and $display) to track signals and automatically compare the counter's value against the expected output.
+
+Waveform Generation: Capable of generating a .vcd (Value Change Dump) file for easy analysis and debugging using waveform viewers (like GTKWave).
+
+** Project Purpose
+The primary goal of this mini-project is to provide a practical and easy-to-understand example of designing a basic digital counter in Verilog. This serves as a valuable learning resource for students, 
+newcomers to digital circuit design, or anyone looking to solidify their understanding of fundamental FPGA and ASIC concepts.
