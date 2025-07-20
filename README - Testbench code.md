@@ -47,7 +47,7 @@ initial begin
         exp_count = exp_count +1;
         end
 
-        if (count != exp_count) begin
+        if (count !== exp_count) begin
              $display("[CHECKER]: Error RTL actual count: %0d, Expected count: %0d", count, exp_count);
                 err_cnt= err_cnt+1;
         end else begin
